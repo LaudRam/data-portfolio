@@ -1,0 +1,4 @@
+About me
+A motivated entry-level data scientist with a strong foundation in process engineering, combining technical expertise with a passion for data-driven problem-solving. Skilled in Python (Pandas, NumPy, Matplotlib, Seaborn), SQL, and data cleaning, with experience in exploratory data analysis (EDA) and creating meaningful visualisations. Adept at applying statistical techniques and developing machine learning models to uncover insights and optimise processes.
+
+Leveraging a process engineering background to bring a structured and analytical approach to data challenges, with a focus on efficiency and accuracy. Excited to contribute to innovative projects and deepen expertise in predictive analytics and machine learning.

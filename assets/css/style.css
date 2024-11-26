@@ -230,7 +230,7 @@ img {
   font-size: 1.5rem;
   font-weight: 900;
   color: #e4a109;
-  line-height: 2rem;
+  line-height: 3rem;
   padding-bottom: 1rem;
   padding-top: 0.5rem;
 }
@@ -619,10 +619,13 @@ img {
   .home__img {
     width: max-content;
     top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .home__img img {
     width: 380px;
-    height: 700px;
+    /* height: 700px; */
   }
   .projects__container {
     display: grid;
