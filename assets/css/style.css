@@ -373,12 +373,12 @@ img {
   opacity: 1;
 }
 
-.services {
+.projects {
   background-color: #f9f9f9;
   padding-bottom: 4rem;
 }
 
-.services__section {
+.projects__section {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -386,12 +386,12 @@ img {
   letter-spacing: 0.25rem;
 }
 
-.services__container {
+.projects__container {
   display: grid;
   row-gap: 1.5rem;
 }
 
-.services__data {
+.projects__data {
   display: grid;
   padding: 2rem 1rem;
   border-radius: 0.5rem;
@@ -401,31 +401,31 @@ img {
   background: #2a3749;
 }
 
-.services__data:nth-of-type(4) img {
+.projects__data:nth-of-type(4) img {
   height: 230px;
 }
 
-.services__img {
+.projects__img {
   width: 230px;
   margin-bottom: 3rem;
   justify-self: center;
 }
 
-.services__title {
+.projects__title {
   color: #e4a109;
   margin-bottom: 0.5rem;
 }
 
-.services__description {
+.projects__description {
   color: #f9f9f9;
 }
 
-.portfolio {
+.experience {
   background-color: #f9f9f9;
   padding-bottom: 4rem;
 }
 
-.portfolio__section {
+.experience__section {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -433,12 +433,12 @@ img {
   letter-spacing: 0.25rem;
 }
 
-.portfolio__container {
+.experience__container {
   display: flex;
   row-gap: 1.5rem;
 }
 
-.portfolio__data {
+.experience__data {
   display: grid;
   padding: 1.5rem 1rem;
   border-radius: 0.5rem;
@@ -448,14 +448,14 @@ img {
   background: #2a3749;
 }
 
-.portfolio__img {
+.experience__img {
   width: 300px;
   height: auto;
   margin-bottom: 1.5rem;
   justify-self: center;
 }
 
-.portfolio__img img {
+.experience__img img {
   border-radius: 8px;
   box-shadow: 0 1px 2.2px rgba(0, 0, 0, 0.076),
     0 2.3px 5.3px rgba(0, 0, 0, 0.109), 0 4.4px 10px rgba(0, 0, 0, 0.135),
@@ -463,21 +463,21 @@ img {
     0 35px 80px rgba(0, 0, 0, 0.27);
 }
 
-.portfolio__title {
+.experience__title {
   color: #e4a109;
   margin-bottom: 1rem;
 }
 
-.portfolio__description {
+.experience__description {
   color: #f9f9f9;
   margin-bottom: 1.5rem;
 }
 
-.portfolio__link {
+.experience__link {
   margin-bottom: 3rem;
 }
 
-.portfolio__link span {
+.experience__link span {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 0.75rem;
@@ -489,7 +489,7 @@ img {
   border-radius: 8px;
 }
 
-.portfolio__link span:hover {
+.experience__link span:hover {
   background-color: #e4a109;
   color: #2a3749;
   transition: 0.3s;
@@ -550,10 +550,10 @@ img {
     height: 400px;
   }
   .home__container,
-  .services__container {
+  .projects__container {
     grid-template-columns: repeat(1, 1fr);
   }
-  .services__container {
+  .projects__container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -624,23 +624,23 @@ img {
     width: 380px;
     height: 700px;
   }
-  .services__container {
+  .projects__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .portfolio__title {
+  .experience__title {
     font-size: 1.5rem;
   }
-  .portfolio__img {
+  .experience__img {
     width: max-content;
   }
-  .portfolio__img img {
+  .experience__img img {
     width: 550px;
   }
-  .portfolio__description {
+  .experience__description {
     margin: 2rem 5rem;
   }
-  .portfolio__link span {
+  .experience__link span {
     font-size: 1rem;
   }
 }
